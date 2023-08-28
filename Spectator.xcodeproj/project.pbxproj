@@ -143,6 +143,7 @@
 		08A3209C2A9B568200CC32C7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				08D652652A9AA8ED00EC8531 /* AppDelegate.swift */,
 				08A3209D2A9B569000CC32C7 /* Splash */,
 				08A3209E2A9B569300CC32C7 /* MainTabBar */,
 				08A3209F2A9B56A700CC32C7 /* LatestLosses */,
@@ -398,12 +399,7 @@
 			children = (
 				08A320FF2A9C997000CC32C7 /* LICENSE */,
 				08A320FE2A9C997000CC32C7 /* README.md */,
-				08D652652A9AA8ED00EC8531 /* AppDelegate.swift */,
-				08D6528F2A9ABCBD00EC8531 /* Constants.swift */,
-				08D6528B2A9ABA1500EC8531 /* LocalizedString.swift */,
 				08A3209B2A9B567600CC32C7 /* Presentation */,
-				08D6527D2A9AAE6100EC8531 /* Models */,
-				08D6527F2A9AAE6D00EC8531 /* Views */,
 				08D652992A9AC49E00EC8531 /* Services */,
 				08D6528A2A9AB93900EC8531 /* Resources */,
 				08A320B52A9B764300CC32C7 /* Protocols */,
@@ -420,20 +416,6 @@
 				08D652732A9AA8F000EC8531 /* Info.plist */,
 			);
 			name = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		08D6527D2A9AAE6100EC8531 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		08D6527F2A9AAE6D00EC8531 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		08D652802A9AAE7300EC8531 /* ViewModels */ = {
@@ -461,8 +443,10 @@
 		08D6528A2A9AB93900EC8531 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				08D6526E2A9AA8F000EC8531 /* Assets.xcassets */,
+				08D6528F2A9ABCBD00EC8531 /* Constants.swift */,
+				08D6528B2A9ABA1500EC8531 /* LocalizedString.swift */,
 				08D6528D2A9ABA8F00EC8531 /* Localizable.strings */,
+				08D6526E2A9AA8F000EC8531 /* Assets.xcassets */,
 				08D652AD2A9B417700EC8531 /* russia_losses_equipment.json */,
 				08D652AE2A9B417700EC8531 /* russia_losses_personnel.json */,
 				08D652AC2A9B417600EC8531 /* russia_losses_equipment_oryx.json */,

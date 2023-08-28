@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  Spectator
+
+  Created by Beavean on 27.08.2023.
+  
+*/
+
+// MARK: - Splash Screen
+"Spectator" = "Spectator";
+
+// MARK: - Splash screen
+"Spectator" = "Spectator";
+"Ukraine" = "Ukraine";
+"Victory" = "Victory";
+
+// MARK: - Alert elements
+"⚠️" = "⚠️";
+"Critical error ⛔️" = "Critical error ⛔️";
+"OK" = "OK";
+"Retry" = "Retry";
+
+// MARK: - Errors
+"No internet connection. Data loaded from cache." = "No internet connection. Data loaded from cache.";
+"Invalid URL. Data loaded from cache." = "Invalid URL. Data loaded from cache.";
+"No data received from server. Data loaded from cache." = "No data received from server. Data loaded from cache.";
+"Invalid data format received from server" = "Invalid data format received from server";
+"No network or cached data available." = "No network or cached data available.";
+
+// MARK: - Tabs
+"Losses" = "Losses";
+"Equipment" = "Equipment";
+"More" = "More";
+
+// MARK: - Screen Titles
+"Equipment losses" = "Equipment losses";
+"Spectator settings" = "Spectator settings";
+
+// MARK: - Latest losses screen
+"days of war" = "days of war";
+"Estimated losses of the russian army" = "Estimated losses of the russian army";
+"Personnels" = "Personnels";
+"Aircrafts" = "Aircrafts";
+"Helicopters" = "Helicopters";
+"Tanks" = "Tanks";
+"Armoured Carriers" = "Armoured Carriers";
+"Field Artilleries" = "Field Artilleries";
+"Rocket Launchers" = "Rocket Launchers";
+"Drones" = "Drones";
+"Naval Ships" = "Naval Ships";
+"Anti-Aircrafts" = "Anti-Aircrafts";
+"Special Equipments" = "Special Equipments";
+"Vehicles" = "Vehicles";
+"Cruise Missiles" = "Cruise Missiles";
+
+// MARK: - More screen
+"Developed by Beavean" = "Developed by Beavean";
+"Donate to Army" = "Donate to Army";

@@ -32,6 +32,8 @@
 		08A320EF2A9C2AF200CC32C7 /* LatestLossesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A320EE2A9C2AF200CC32C7 /* LatestLossesHeaderView.swift */; };
 		08A320F32A9C372600CC32C7 /* SettingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A320F22A9C372600CC32C7 /* SettingElement.swift */; };
 		08A320F52A9C3C4600CC32C7 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A320F42A9C3C4600CC32C7 /* SettingsCell.swift */; };
+		08A321002A9C997000CC32C7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 08A320FE2A9C997000CC32C7 /* README.md */; };
+		08A321012A9C997000CC32C7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 08A320FF2A9C997000CC32C7 /* LICENSE */; };
 		08D652662A9AA8ED00EC8531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D652652A9AA8ED00EC8531 /* AppDelegate.swift */; };
 		08D6526A2A9AA8ED00EC8531 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D652692A9AA8ED00EC8531 /* MainTabBarController.swift */; };
 		08D6526F2A9AA8F000EC8531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D6526E2A9AA8F000EC8531 /* Assets.xcassets */; };
@@ -87,6 +89,8 @@
 		08A320EE2A9C2AF200CC32C7 /* LatestLossesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestLossesHeaderView.swift; sourceTree = "<group>"; };
 		08A320F22A9C372600CC32C7 /* SettingElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingElement.swift; sourceTree = "<group>"; };
 		08A320F42A9C3C4600CC32C7 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		08A320FE2A9C997000CC32C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		08A320FF2A9C997000CC32C7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		08D652622A9AA8ED00EC8531 /* Spectator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D652652A9AA8ED00EC8531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D652692A9AA8ED00EC8531 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -378,6 +382,8 @@
 		08D652642A9AA8ED00EC8531 /* Spectator */ = {
 			isa = PBXGroup;
 			children = (
+				08A320FF2A9C997000CC32C7 /* LICENSE */,
+				08A320FE2A9C997000CC32C7 /* README.md */,
 				08D652652A9AA8ED00EC8531 /* AppDelegate.swift */,
 				08D6528F2A9ABCBD00EC8531 /* Constants.swift */,
 				08D6528B2A9ABA1500EC8531 /* LocalizedString.swift */,
@@ -521,7 +527,9 @@
 			files = (
 				08D652B12A9B417700EC8531 /* russia_losses_personnel.json in Resources */,
 				08D652AF2A9B417700EC8531 /* russia_losses_equipment_oryx.json in Resources */,
+				08A321012A9C997000CC32C7 /* LICENSE in Resources */,
 				08D652B02A9B417700EC8531 /* russia_losses_equipment.json in Resources */,
+				08A321002A9C997000CC32C7 /* README.md in Resources */,
 				08D652722A9AA8F000EC8531 /* LaunchScreen.storyboard in Resources */,
 				08D6528E2A9ABA8F00EC8531 /* Localizable.strings in Resources */,
 				08D6526F2A9AA8F000EC8531 /* Assets.xcassets in Resources */,

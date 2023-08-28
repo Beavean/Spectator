@@ -15,7 +15,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.backgroundColor = .systemBackground
+        window?.overrideUserInterfaceStyle = .dark
         window?.rootViewController = SplashViewController()
         setupAppearances()
         return true

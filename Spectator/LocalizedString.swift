@@ -59,6 +59,10 @@ enum LocalizedString: String {
     case vehiclesAndFuelTanksLoss = "Vehicles"
     case cruiseMissilesLoss = "Cruise Missiles"
 
+    // MARK: - Equipment screen
+
+    case searchBarPlaceholder = "Search by model"
+
     // MARK: - More screen
 
     case donateToArmyText = "Donate to Army 🪖"

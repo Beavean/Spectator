@@ -50,9 +50,13 @@ final class EquipmentViewModel {
 
     func filterByModel(_ model: String) {
         if currentEquipmentUa == .all {
-            filteredLosses = allLosses?.filter { $0.model.contains(model) }
+            filteredLosses = allLosses?.filter {
+                $0.model.lowercased().contains(model.lowercased())
+            }
         } else {
-            filteredLosses = allLosses?.filter { $0.equipmentType == currentEquipmentUa && $0.model.contains(model) }
+            filteredLosses = allLosses?.filter {
+                $0.equipmentType == currentEquipmentUa && $0.model.lowercased().contains(model.lowercased())
+            }
         }
     }
 

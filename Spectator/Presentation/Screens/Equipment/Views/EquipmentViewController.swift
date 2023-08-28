@@ -33,6 +33,7 @@ final class EquipmentViewController: UIViewController {
     }()
 
     private lazy var searchBar = UISearchBar().apply {
+        $0.placeholder = LocalizedString.searchBarPlaceholder.localized
         $0.delegate = self
         $0.backgroundColor = .clear
         $0.barTintColor = .clear
@@ -139,6 +140,8 @@ extension EquipmentViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedEquipment = EquipmentType.allCases[indexPath.row]
         viewModel.filterByEquipmentUa(selectedEquipment)
+        searchBar.text = ""
+        searchBar.resignFirstResponder()
         tableView.reloadData()
         collectionView.reloadData()
     }

@@ -7,9 +7,9 @@ Spectator app was developed within **24 hours** in terms of a test task for Boot
 
 ## Screenshots
 
-| Losses screen | Daily screen | Equipment screen |
+| Losses screen | Equipment screen | Equipment screen |
 | :----------: | :---------: | :---------: |
-<img src = "https://github.com/Beavean/Spectator/assets/105853157/45925783-8a2b-4293-9e9f-19486d6c6948" width = 300> | <img src = "https://github.com/Beavean/Spectator/assets/105853157/f7365109-c768-43c0-8361-ce7125b0b3d6" width = 300> | <img src = "https://github.com/Beavean/Spectator/assets/105853157/adfcc79f-3590-4999-a855-658fc2e52d85" width = 300> |
+<img src = "https://github.com/Beavean/Spectator/assets/105853157/45925783-8a2b-4293-9e9f-19486d6c6948" width = 300> | <img src = "https://github.com/Beavean/Spectator/assets/105853157/3a214b19-256c-4f2d-b822-f4fe785addcc" width = 300> | <img src = "https://github.com/Beavean/Spectator/assets/105853157/2a9ca74e-3995-4a89-b115-22cb6b7d2c11" width = 300> |
 
 ## Features
 
@@ -18,7 +18,7 @@ Spectator app was developed within **24 hours** in terms of a test task for Boot
 * No Storyboards
 * Programmatic UI
 * No 3rd-party libraries
-* 3 screens with different info
+* 4 screens with different info
 * Data caching
 * Error handling
 * Built within 24 hours

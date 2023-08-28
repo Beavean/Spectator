@@ -17,10 +17,6 @@ final class EquipmentViewModel {
         filteredLosses = losses
     }
 
-    var currentLosses: [OryxLoss] {
-        filteredLosses ?? []
-    }
-
     var numberOfEquipmentItems: Int {
         filteredLosses?.count ?? 0
     }

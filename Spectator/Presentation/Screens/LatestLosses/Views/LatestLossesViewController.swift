@@ -30,8 +30,6 @@ final class LatestLossesViewController: UIViewController {
         return collectionView
     }()
 
-    private let headerView = LossesHeaderView()
-
     // MARK: - Properties
 
     private let mediumPadding = Constants.StyleDefaults.mediumPadding

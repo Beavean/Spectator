@@ -20,7 +20,6 @@ final class SplashViewController: UIViewController {
 
     private let mediumPadding = Constants.StyleDefaults.mediumPadding
     private var viewModel = SplashViewModel()
-    private var didCompleteAnimationCycle = false
 
     // MARK: - Lifecycle
 

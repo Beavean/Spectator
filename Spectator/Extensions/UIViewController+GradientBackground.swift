@@ -8,16 +8,6 @@
 import UIKit
 
 extension UIViewController {
-    func addGradientBackground(topColor: UIColor = Constants.Colors.blueFlag.color,
-                               bottomColor: UIColor = Constants.Colors.yellowFlag.color) {
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = view.bounds
-        gradientLayer.colors = [topColor.cgColor, bottomColor.cgColor]
-        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
-        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1)
-        view.layer.insertSublayer(gradientLayer, at: 0)
-    }
-
     func addGradientBackgroundWithAnimation(topColor: UIColor = Constants.Colors.blueFlag.color,
                                             bottomColor: UIColor = Constants.Colors.yellowFlag.color) {
         let gradientLayer = CAGradientLayer()

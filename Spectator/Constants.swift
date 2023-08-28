@@ -11,7 +11,6 @@ enum Constants {
     enum StyleDefaults {
         static let smallPadding: CGFloat = 8
         static let mediumPadding: CGFloat = 16
-        static let bigPadding: CGFloat = 24
         static let cornerRadius: CGFloat = 16
     }
 

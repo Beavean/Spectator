@@ -41,7 +41,6 @@
 		08D652832A9AB16B00EC8531 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D652822A9AB16B00EC8531 /* UIView+Anchors.swift */; };
 		08D652852A9AB30000EC8531 /* ApplyableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D652842A9AB30000EC8531 /* ApplyableProtocol.swift */; };
 		08D652872A9AB66700EC8531 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D652862A9AB66700EC8531 /* SplashViewController.swift */; };
-		08D652892A9AB8BC00EC8531 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D652882A9AB8BC00EC8531 /* String+Localized.swift */; };
 		08D6528C2A9ABA1500EC8531 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D6528B2A9ABA1500EC8531 /* LocalizedString.swift */; };
 		08D6528E2A9ABA8F00EC8531 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08D6528D2A9ABA8F00EC8531 /* Localizable.strings */; };
 		08D652902A9ABCBD00EC8531 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D6528F2A9ABCBD00EC8531 /* Constants.swift */; };
@@ -100,7 +99,6 @@
 		08D652822A9AB16B00EC8531 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 		08D652842A9AB30000EC8531 /* ApplyableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyableProtocol.swift; sourceTree = "<group>"; };
 		08D652862A9AB66700EC8531 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		08D652882A9AB8BC00EC8531 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		08D6528B2A9ABA1500EC8531 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 		08D6528D2A9ABA8F00EC8531 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		08D6528F2A9ABCBD00EC8531 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -454,7 +452,6 @@
 				08A320D12A9BD46E00CC32C7 /* String+FormatDate.swift */,
 				08A320C32A9B934200CC32C7 /* Array+SecndToLast.swift */,
 				08A320CF2A9BC39200CC32C7 /* Array+SafeElement.swift */,
-				08D652882A9AB8BC00EC8531 /* String+Localized.swift */,
 				08A320B82A9B860500CC32C7 /* UIViewController+GradientBackground.swift */,
 				08A320EC2A9C29A800CC32C7 /* UIViewController+NavigationBar.swift */,
 			);
@@ -564,7 +561,6 @@
 				08D652A12A9ACCBA00EC8531 /* StorageManager.swift in Sources */,
 				08A320CA2A9BB72F00CC32C7 /* SettingsViewController.swift in Sources */,
 				08D6529F2A9AC9EB00EC8531 /* OryxLoss.swift in Sources */,
-				08D652892A9AB8BC00EC8531 /* String+Localized.swift in Sources */,
 				08D6526A2A9AA8ED00EC8531 /* MainTabBarController.swift in Sources */,
 				08A320DE2A9BF03900CC32C7 /* EquipmentType.swift in Sources */,
 				08A320E02A9C011F00CC32C7 /* EquipmentTypeCell.swift in Sources */,

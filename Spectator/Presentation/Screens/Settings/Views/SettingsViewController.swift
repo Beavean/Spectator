@@ -20,7 +20,6 @@ final class SettingsViewController: UIViewController {
 
     // MARK: - Properties
 
-    private let mediumPadding = Constants.StyleDefaults.mediumPadding
     private let settingElements = SettingElement.allCases
 
     // MARK: - Lifecycle

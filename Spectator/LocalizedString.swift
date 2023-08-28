@@ -69,6 +69,6 @@ enum LocalizedString: String {
 
 extension LocalizedString {
     var localized: String {
-        return rawValue
+        NSLocalizedString(self.rawValue, comment: "")
     }
 }

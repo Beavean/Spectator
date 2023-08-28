@@ -21,8 +21,10 @@ enum Constants {
         static let personnelLosses = baseUrl + "russia_losses_personnel.json"
         static let equipmentOryxLosses = baseUrl + "russia_losses_equipment_oryx.json"
 
-        static let donateLink = "https://macpaw.foundation/#donate"
+        static let donateLink = "https://savelife.in.ua/DONATE/"
         static let developerLink = "https://github.com/Beavean"
+        static let deepStateLink = "https://deepstatemap.live/#6/49.438/32.053"
+        static let foundationLink = "https://macpaw.foundation/#donate"
     }
 
     enum Colors: String {

@@ -25,7 +25,7 @@ final class SettingsCell: UITableViewCell, ReuseIdentifier {
     }
 
     private let leadingBadgeImageView = UIImageView().apply {
-        $0.image = Constants.SystemImage.circleFilled.image
+        $0.image = Constants.SystemImage.circleInsetFilled.image
         $0.tintColor = Constants.Colors.primaryAccentColor.color
     }
 

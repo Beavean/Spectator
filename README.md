@@ -1,7 +1,8 @@
-# Spectator App by Anton Petrov
-Test app for MacPaw Bootcamp 🫡
+# Spectator
+Test app for MacPaw Bootcamp.
 
 The application presents different ways to process russian military losses statistics. 
+Spectator app was developed within 24 hours in terms of a test task for Bootcamp at MacPaw.
 
 ## Screenshots:
 
@@ -16,15 +17,33 @@ The application presents different ways to process russian military losses stati
 * Programmatic UI
 * No 3rd-party libraries
 * 3 screens with different info
+* Data caching
+* Error handling
 * Built within 24 hours
 
-## Considerable to-dos before commercial release:
-- Add at least one more  screen to the tabs with two date selections to get loss statistics for specific periods comparing the overall losses 
+## Requirements
+- iOS 14.0+
+- Xcode 14.0+
+
+## Suggested improvements
+- Add at least one more screen to the tabs with two date selections to get loss statistics for specific periods comparing the overall losses 
+- Add interactions to equipment data
+- Add graphs with interactions
+- Add localization
+- Add more links to donations etc 
+- Add push notifications for updates
+- Many more, if the JSON files are also planned to grow to REST API 'on server architecture'
+
+## To-Dos for product release:
 - Implement appearance switching in the app
-- Finish localization
-- Add handy links to donations etc 
 - Add high-quality asset images and symbols
-- Anything else more, if the API(JSON files) is also planned to grow
+- Refactor nested methods
+- Test and fix bugs
+
+## Installation
+1. [Download](https://github.com/Beavean/Spectator/archive/refs/heads/main.zip) repository on your Mac
+2. Open Spectator.xcodeproj using Xcode
+3. Build <kbd> <br> command <br> </kbd> + <kbd> <br>R<br> </kbd>
 
 ## License
 

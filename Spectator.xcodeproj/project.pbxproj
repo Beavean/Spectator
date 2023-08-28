@@ -297,9 +297,8 @@
 		08A320C82A9BB70000CC32C7 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				08A320C92A9BB72F00CC32C7 /* SettingsViewController.swift */,
-				08A320F42A9C3C4600CC32C7 /* SettingsCell.swift */,
-				08A320F22A9C372600CC32C7 /* SettingElement.swift */,
+				08A321032A9CA38D00CC32C7 /* Models */,
+				08A321022A9CA38800CC32C7 /* Views */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -361,6 +360,23 @@
 				08A320DB2A9BEA9200CC32C7 /* EquipmentLossesCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		08A321022A9CA38800CC32C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08A320C92A9BB72F00CC32C7 /* SettingsViewController.swift */,
+				08A320F42A9C3C4600CC32C7 /* SettingsCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		08A321032A9CA38D00CC32C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08A320F22A9C372600CC32C7 /* SettingElement.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		08D652592A9AA8ED00EC8531 = {
@@ -734,7 +750,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -765,7 +781,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

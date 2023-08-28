@@ -2,7 +2,8 @@
 Test app for MacPaw Bootcamp.
 
 The application presents different ways to process russian military losses statistics. 
-Spectator app was developed within 24 hours in terms of a test task for Bootcamp at MacPaw.
+
+Spectator app was developed within **24 hours** in terms of a test task for Bootcamp at MacPaw.
 
 ## Screenshots
 

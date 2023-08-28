@@ -28,7 +28,7 @@ Spectator app was developed within **24 hours** in terms of a test task for Boot
 - iOS 14.0+
 - Xcode 14.0+
 
-## Suggested improvements & to-Dos for product release
+## To-Do for product release
 
 - Add a screen with two date selections to get loss statistics for specific periods comparing the overall losses
 - Add graphs with interactions

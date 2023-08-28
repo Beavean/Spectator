@@ -28,22 +28,27 @@ Spectator app was developed within **24 hours** in terms of a test task for Boot
 - iOS 14.0+
 - Xcode 14.0+
 
-## Suggested improvements
+## Suggested improvements & to-Dos for product release
 
-- Add at least one more screen to the tabs with two date selections to get loss statistics for specific periods comparing the overall losses 
-- Add interactions to equipment data
+- Add a screen with two date selections to get loss statistics for specific periods comparing the overall losses
 - Add graphs with interactions
-- Add localization
-- Add more links to donations etc 
+- Add calendar for convenient date choosing
+- Add interactions to equipment data
+- Add skeletonViews & activity indicators
+- Add progress rings
 - Add push notifications for updates
-- Many more, if the JSON files are also planned to grow to REST API 'on server architecture'
-
-## To-Dos for product release
-
-- Implement appearance switching in the app
 - Add high-quality asset images and symbols
+- Add scenes and screen widget
+- Add iPadOS/macOS support
+- Add more links to donations etc 
+- Add Privacy Policy & Terms of Use on the Settings screen
+- Implement appearance switching in the app
+- Complete localization
 - Refactor nested methods
-- Test and fix bugs
+- Improve error handling
+- Write UI & Unit Tests using XCTest
+
+If the JSON files are also planned to grow to REST API 'on server architecture':
 
 ## Installation
 

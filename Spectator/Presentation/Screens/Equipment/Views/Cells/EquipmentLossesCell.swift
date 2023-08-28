@@ -14,7 +14,7 @@ final class EquipmentLossesCell: UITableViewCell, ReuseIdentifier {
         $0.contentMode = .scaleAspectFit
         $0.clipsToBounds = true
         $0.setDimensions(height: 40, width: 40)
-        $0.tintColor = Constants.Colors.label.color
+        $0.tintColor = Constants.Colors.primaryAccentColor.color
     }
 
     private let nameLabel = CustomStyleLabel(fontSize: 16)

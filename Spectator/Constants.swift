@@ -24,6 +24,7 @@ enum Constants {
         static let developerLink = "https://github.com/Beavean"
         static let deepStateLink = "https://deepstatemap.live/#6/49.438/32.053"
         static let foundationLink = "https://macpaw.foundation/#donate"
+        static let airAlarmMapLink = "https://map.ukrainealarm.com"
     }
 
     enum Colors: String {

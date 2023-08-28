@@ -65,6 +65,8 @@ enum LocalizedString: String {
     case developedByText = "Developed by Anton Petrov 🥷🏼"
     case openWarMap = "Open Deep State Map 🧭"
     case donateToFoundation = "MacPaw Foundation 🇺🇦"
+    case openAirAlarmMap = "Open Air Alarm Map ⚠️"
+
 }
 
 extension LocalizedString {

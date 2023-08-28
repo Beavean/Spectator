@@ -10,6 +10,7 @@ import Foundation
 enum SettingElement: CaseIterable {
     case donateToMacPawFoundation
     case donateToArmy
+    case airAlarmMap
     case warMap
     case developedBy
 
@@ -23,6 +24,8 @@ enum SettingElement: CaseIterable {
             return LocalizedString.openWarMap.localized
         case .donateToMacPawFoundation:
             return LocalizedString.donateToFoundation.localized
+        case .airAlarmMap:
+            return LocalizedString.openAirAlarmMap.localized
         }
     }
 
@@ -36,6 +39,8 @@ enum SettingElement: CaseIterable {
             return Constants.URLs.deepStateLink
         case .donateToMacPawFoundation:
             return Constants.URLs.foundationLink
+        case .airAlarmMap:
+            return Constants.URLs.airAlarmMapLink
         }
     }
 }

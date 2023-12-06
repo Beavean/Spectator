@@ -23,7 +23,7 @@ final class SplashViewModel {
             guard let self else { return }
             switch result {
             case let .success(data):
-                losses.equipmentLosses = data
+                self.losses.equipmentLosses = data
             case let .failure(error):
                 self.error = error
                 errorOccurred = true
@@ -36,7 +36,7 @@ final class SplashViewModel {
             guard let self else { return }
             switch result {
             case let .success(data):
-                losses.personnelLosses = data
+                self.losses.personnelLosses = data
             case let .failure(error):
                 self.error = error
                 errorOccurred = true
@@ -49,7 +49,7 @@ final class SplashViewModel {
             guard let self else { return }
             switch result {
             case let .success(data):
-                losses.equipmentOryxLosses = data
+                self.losses.equipmentOryxLosses = data
             case let .failure(error):
                 self.error = error
                 errorOccurred = true

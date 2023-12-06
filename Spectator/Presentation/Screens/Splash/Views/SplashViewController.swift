@@ -42,14 +42,14 @@ final class SplashViewController: UIViewController {
             switch result {
             case let .success(lossesResult):
                 if let error = lossesResult.error {
-                    showAlert(message: error.localizedDescription) { _ in
+                    self.showAlert(message: error.localizedDescription) { _ in
                         self.presentMainTabBarController(forLosses: lossesResult.losses)
                     }
                 } else {
-                    presentMainTabBarController(forLosses: lossesResult.losses)
+                    self.presentMainTabBarController(forLosses: lossesResult.losses)
                 }
             case let .failure(failure):
-                showAlert(title: LocalizedString.criticalErrorTitle.localized,
+                self.showAlert(title: LocalizedString.criticalErrorTitle.localized,
                           message: failure.localizedDescription,
                           okActionTitle: LocalizedString.retryButtonText.localized) { _ in
                     self.fetchLosses()

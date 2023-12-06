@@ -1,9 +1,8 @@
 # Spectator
-Test app for MacPaw Bootcamp.
 
 The application presents different ways to process russian military losses statistics. 
 
-Spectator app was developed within **24 hours** in terms of a test task for Bootcamp at MacPaw.
+Spectator app was developed within **24 hours** in terms of specific test task requirements.
 
 ## Screenshots
 
@@ -28,7 +27,7 @@ Spectator app was developed within **24 hours** in terms of a test task for Boot
 - iOS 14.0+
 - Xcode 14.0+
 
-## To-Do for product release
+## To-Dos for product release
 
 - Add a screen with two date selections to get loss statistics for specific periods comparing the overall losses
 - Add graphs with interactions

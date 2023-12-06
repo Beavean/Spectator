@@ -15,7 +15,7 @@ enum Constants {
     }
 
     enum URLs {
-        private static let baseUrl = "https://github.com/MacPaw/2022-Ukraine-Russia-War-Dataset/raw/main/data/"
+        private static let baseUrl = "https://github.com/macpaw/2022-Ukraine-Russia-War-Dataset/raw/main/data/"
         static let equipmentLosses = baseUrl + "russia_losses_equipment.json"
         static let personnelLosses = baseUrl + "russia_losses_personnel.json"
         static let equipmentOryxLosses = baseUrl + "russia_losses_equipment_oryx.json"
@@ -23,7 +23,6 @@ enum Constants {
         static let donateLink = "https://savelife.in.ua/DONATE/"
         static let developerLink = "https://github.com/Beavean"
         static let deepStateLink = "https://deepstatemap.live/#6/49.438/32.053"
-        static let foundationLink = "https://macpaw.foundation/#donate"
         static let airAlarmMapLink = "https://map.ukrainealarm.com"
     }
 
